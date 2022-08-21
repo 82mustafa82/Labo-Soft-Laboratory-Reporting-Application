@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Labo Soft Application</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+</head>
+<body>
+<div class="container-fluid text-center p-2">
+  <h2>Welcome to Labo Soft Application!!!</h2>
+  <h2>=================</h2>
+  <h2>This is User Home Page</h2>
+  <h2>=================</h2>
+  <h2 style="color: brown"><b>[[${#request.userPrincipal.principal.username}]]</b></h2>
+  <h2>=================</h2>
+</div>
+<div class="container-fluid text-center p-2">
+  <a class="h2" th:href="@{/user/user_reports}">Manage Reports</a>
+</div>
+<form class="container-fluid text-center p-2" th:action="@{/user/logout}" method="post">
+  <input type="submit" class="btn btn-secondary m-2" value="Log Out >>" />
+</form>
+</body>
+</html>

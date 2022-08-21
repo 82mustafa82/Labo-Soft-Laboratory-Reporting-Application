@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"/>
+    <!-- Title -->
+    <title>Welcome to Labo Soft Application</title>
+</head>
+<body>
+<div class="container-fluid text-center p-2">
+    <h1>Welcome to Labo Soft Application!!!</h1>
+</div>
+<div class="container-fluid text-center p-2">
+    <a class="h2" th:href="@{/admin/login}">Admin Log In >></a>
+</div>
+<div class="container-fluid text-center p-2">
+    <a class="h2" th:href="@{/user/login}">User Log In >></a>
+</div>
+</body>
+</html>

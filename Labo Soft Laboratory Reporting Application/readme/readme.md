@@ -11,7 +11,7 @@ ___
 
 > İlgili dosya içerisinde terminal aracılığıyla shell java komutu ile jar dosyası oluşturulup çalıştırılır. Ardından internet tarayıcıdan "localhost:8080" adresi girilerek uygulamaya girilir. 
 
-Projeyi çalıştırmak için ( "*.jpathylab*" dosyasının masaüstünde olduğu varsayılarak) : 
+Projeyi çalıştırmak için ( "*jpathylab*" dosyasının masaüstünde olduğu varsayılarak) : 
 
 ```bash
 cd Desktop/jpathylab
